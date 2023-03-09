@@ -61,8 +61,8 @@ app:
   config:
     keycloak:
       url: http://localhost:8080/auth
-      realm: javatodev-internet-banking
-      client-secret: 485aaa20-de67-42f4-999a-40ddf6ad2e7d
+      realm: madhu-internet-banking
+      client-secret: 6nTWUlvVGrtjmMUh5HTaIlz4w8LTshmJ
       client-id: internet-banking-core-client
 
 server:
