@@ -17,7 +17,7 @@ spring:
             client-id: ${app.config.keycloak.client-id}
             client-secret: ${app.config.keycloak.client-secret}
             provider: keycloak
-            redirect-uri: http://localhost:8080/login/oauth2/code/keycloak
+            redirect-uri: http://localhost:8090/login/oauth2/code/keycloak
             scope: openid
       resourceserver:
         jwt:
@@ -60,7 +60,7 @@ spring:
 app:
   config:
     keycloak:
-      url: http://localhost:8080/auth
+      url: http://localhost:8090/auth
       realm: madhu-internet-banking
       client-secret: 6nTWUlvVGrtjmMUh5HTaIlz4w8LTshmJ
       client-id: internet-banking-core-client
